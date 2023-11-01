@@ -40,3 +40,12 @@ button{
   border-radius: 4px;
   cursor: pointer;
 }
+.define {
+  background-color: aqua;
+  margin-left: 25%;
+  width: 50%;
+  padding: 20px 5px;
+  margin-top: 5%;
+  font-size: 18px;
+  text-align: center;
+}

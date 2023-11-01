@@ -27,7 +27,7 @@ function Form(){
     
     return(
         <>
-        <pre>{(flag)? <h2>Hello {inputData.name}, You've Registered Successfully</h2>:""}</pre>
+        <pre>{(flag)? <h2 className="define">Hello {inputData.name}, You've Registered Successfully</h2>:""}</pre>
         <form className="container" onSubmit={handlesubmit}>
             <h1 className="header">Registration</h1>
             <input type="text" placeholder="Enter your Name" autoComplete="off" 
